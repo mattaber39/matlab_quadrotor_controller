@@ -1,6 +1,8 @@
 # What are the Epicycloids and Hipocycloids?
 
-Epicycloids and Hipocycloids are very fun to work with, they are parametric functions that can make figures that resemble flowers and stars, respectevely. 
+Epicycloids and Hipocycloids are very fun to work with, they are parametric functions that can make figures that resemble flowers and stars, respectively. They are made by having a fixed circle _G_ with some radius _a_ and rolling around it another circle _D_ with radius _b_. If we trace the trajectory that some point P in the _D_ circle has, it will create an Epicycloid if _D_ is outside _G_, or a Hipocycloid if _D_ is inside the circle _G_.
+
+The equations for these figures are shown next.
 
 ## Epicycloids
 x = (a+b)cos((p)t)  -  (b)cos(p((a+b)/b)t)
