@@ -1,4 +1,4 @@
-function [desired_state] = circle(t, qn)
+function [desired_state] = circle_daniel(t, qn)
 % CIRCLE trajectory generator for a circle
 
 % =================== Your code goes here ===================
