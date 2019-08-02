@@ -12,20 +12,20 @@ addpath('trajectories')
 % You need to implement trajhandle and controlhandle
 
 % trajectory generator
-trajhandle = @hover;
+trajhandle = @hover; % Change between the different trajectories available.
 
 % controller
-controlhandle = @controller;
+controlhandle = @linearcontroller; % It can be changed to geometric, but there won't be much difference.
 
 % real-time 
-real_time = true;
+real_time = true; % Change it to false to speed up the simulation.
 
 % *********** YOU SHOULDN'T NEED TO CHANGE ANYTHING BELOW **********
 % number of quadrotors
 nquad = 1;
 
 % max time
-time_tol = 30;
+time_tol = 30; % Change this value depending on the time you need for each of your trajectories.
 
 % parameters for simulation
 params = crazyflie();
