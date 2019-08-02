@@ -5,9 +5,11 @@ function [desired_state] = epicycloid(t, qn)
 % NOTE: the simulator will spawn the robot to be at the
 %       position you return for t == 0
 
+% Circle radii (this circles won't show up in the simulation.
 a = 5;
 b = 3;
 
+% Period of time
 p = (2*pi/80);
 
 posx = (a+b)*cos(p*t)  -  b*cos(p*((a+b)/b)*t);
