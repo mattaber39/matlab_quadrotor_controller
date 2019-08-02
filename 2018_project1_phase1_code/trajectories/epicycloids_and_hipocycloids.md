@@ -22,3 +22,7 @@ The time to complete the figure depends on the characteristics of the radius _a_
 For example, if you have _a = 7_ and _b = 3_, you will have 7 corners and you will need 3 rotations to finish the figure, this means that if your period is 40 seconds, after 120 seconds the figure will be completed.
 
 Play around with the values to see what amazing figures you can make!
+
+## Code
+The code given in the trajectories folder have their variables assigned for you to play with them. The position and speed in the z axis of the trajectory can be changed to anything.
+Have in mind that depending of the time you need to complete your figure, you'll need to change the value of time_tol in the runsim.m.
