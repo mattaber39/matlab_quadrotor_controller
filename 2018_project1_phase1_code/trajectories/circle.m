@@ -8,9 +8,14 @@ function [desired_state] = circle(t, qn)
 
 r = 30;
 
-pos = [r*cos((2*pi/30)*t);r*sin((2*pi/30)*t);0.5*t];
-vel = [-(2*pi/30)*r*sin((2*pi/30)*t);(2*pi/30)*r*cos((2*pi/30)*t);0.5];
-acc = [-(2*pi/30)*(2*pi/30)*r*cos((2*pi/30)*t);-(2*pi/30)*(2*pi/30)*r*sin((2*pi/30)*t);0];
+p = (2*pi/30);
+
+pos = [r*cos(p*t);r*sin(p*t);0.5*t];
+
+vel = [-p*r*sin(p*t);p*r*cos(p*t);0.5];
+
+acc = [-p*p*r*cos(p*t);-p*p*r*sin(p*t);0];
+
 yaw = 0;
 yawdot = 0;
 
