@@ -18,4 +18,4 @@ This is the repository for Matt and Daniel's work from Project 1 Phase 1 [1]. Wo
 * If the time given to the drone to complete the trajectory is short, it will probably be less precise than if the period of time is longer, because it will have less time to adjust after every turn.
 
 ## References
-[1] https://alliance.seas.upenn.edu/~meam620/wiki/index.php?n=Main.Projects
+\[1] All source code for running the simulation is taken from [Penn state's MEAM 620 course.](https://alliance.seas.upenn.edu/~meam620/wiki/index.php?n=Main.Projects)
